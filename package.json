@@ -1,0 +1,32 @@
+{
+  "name": "marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ethiopian marketplace for phones, tablets & laptops",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "dev:api": "npm run dev -w @marketplace/api",
+    "dev:web": "npm run dev -w @marketplace/web",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "test:unit": "npm run test:unit --workspaces --if-present",
+    "test:integration": "npm run test:integration --workspaces --if-present",
+    "db:generate": "npm run db:generate -w @marketplace/api",
+    "db:migrate": "npm run db:migrate -w @marketplace/api",
+    "db:seed": "npm run db:seed -w @marketplace/api",
+    "db:studio": "npm run db:studio -w @marketplace/api",
+    "postinstall": "npm run build -w @marketplace/shared"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "common": {
+    "appName": "Marketplace",
+    "tagline": "Buy and sell phones, tablets & laptops in Ethiopia",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "home": "Home",
+    "login": "Log in",
+    "register": "Create account",
+    "account": "My account",
+    "admin": "Admin",
+    "media": "Media",
+    "seller": "Seller",
+    "browse": "Browse"
+  },
+  "home": {
+    "title": "Ethiopia's marketplace for phones, tablets & laptops",
+    "subtitle": "Buy and sell with trusted sellers across Addis Ababa and all regions.",
+    "login": "Log in",
+    "register": "Get started"
+  },
+  "login": {
+    "title": "Log in",
+    "subtitle": "Welcome back. Enter your credentials to continue.",
+    "identifierLabel": "Email or phone number",
+    "identifierPlaceholder": "you@example.com or 0912345678",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Your password",
+    "submit": "Log in",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Create one",
+    "forgotLink": "Forgot password?",
+    "error": {
+      "INVALID_CREDENTIALS": "Incorrect email/phone or password.",
+      "ACCOUNT_NOT_VERIFIED": "Verify your email or phone before logging in.",
+      "ACCOUNT_INACTIVE": "This account is not active.",
+      "ACCOUNT_SUSPENDED": "This account has been suspended.",
+      "ACCOUNT_DISABLED": "This account has been disabled.",
+      "RATE_LIMITED": "Too many attempts. Please try again later."
+    }
+  },
+  "register": {
+    "title": "Create your account",
+    "subtitle": "Register with an email or phone number to start buying and selling.",
+    "fullNameLabel": "Full name",
+    "emailLabel": "Email (optional)",
+    "emailHint": "Enter at least one contact method",
+    "phoneLabel": "Phone number (optional)",
+    "phoneHint": "Ethiopian format, e.g. 0912345678",
+    "passwordLabel": "Password",
+    "confirmLabel": "Confirm password",
+    "submit": "Create account",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Log in",
+    "success": {
+      "title": "Check your inbox",
+      "subtitle": "Almost there — we need to verify your account before you can log in.",
+      "banner": "We've sent verification messages to your email and phone.",
+      "successEmail": "We sent a verification link to {{email}}. Click it to activate your account.",
+      "successPhone": "We sent a 6-digit code to {{phone}}. Enter it to activate your account.",
+      "verifyEmail": "Verify my email",
+      "verifyPhone": "Enter the SMS code",
+      "goLogin": "Go to login"
+    },
+    "error": {
+      "CONFLICT": "An account with that email or phone already exists.",
+      "RATE_LIMITED": "Too many requests. Please try again later.",
+      "invalidName": "Please enter your full name.",
+      "noContact": "Enter an email or a phone number (or both).",
+      "invalidEmail": "That email address doesn't look right.",
+      "invalidPhone": "Enter a valid Ethiopian phone number, e.g. 0912345678.",
+      "passwordTooShort": "Password must be at least 8 characters.",
+      "passwordMismatch": "Passwords do not match."
+    }
+  },
+  "verifyEmail": {
+    "title": "Verify your email",
+    "subtitle": "Click the link we emailed you, or paste the token below.",
+    "verifying": "Verifying your email…",
+    "success": "Your email is verified and your account is active. You can log in now.",
+    "expired": "This verification link has expired. Request a new one.",
+    "tokenLabel": "Verification token",
+    "tokenPlaceholder": "Paste your token here",
+    "submit": "Verify",
+    "resend": "Resend verification email",
+    "goLogin": "Go to login"
+  },
+  "verifyPhone": {
+    "title": "Verify your phone number",
+    "subtitle": "Enter the 6-digit code we sent you.",
+    "phoneLabel": "Phone number",
+    "codeLabel": "Verification code",
+    "submit": "Verify",
+    "resend": "Resend code",
+    "success": "Your phone is verified and your account is active. You can log in now.",
+    "resent": "A new code has been sent.",
+    "error": {
+      "INVALID_TOKEN": "That code is invalid or has expired.",
+      "EXPIRED_TOKEN": "That code has expired.",
+      "ACCOUNT_NOT_FOUND": "No account found for that phone number."
+    }
+  },
+  "forgot": {
+    "title": "Reset your password",
+    "subtitle": "Enter your email or phone and we'll send you reset instructions.",
+    "identifierLabel": "Email or phone number",
+    "identifierPlaceholder": "you@example.com or 0912345678",
+    "submit": "Send reset instructions",
+    "successTitle": "Check your email or phone",
+    "success": "If an account exists for that contact, reset instructions are on the way.",
+    "goLogin": "Back to login",
+    "remembered": "Remembered your password?",
+    "loginLink": "Back to login",
+    "error": {
+      "RATE_LIMITED": "Too many requests. Please try again later."
+    }
+  },
+  "reset": {
+    "title": "Choose a new password",
+    "subtitle": "Enter your new password below.",
+    "passwordLabel": "New password",
+    "confirmLabel": "Confirm new password",
+    "submit": "Reset password",
+    "successTitle": "Password updated",
+    "success": "Your password has been reset. You can log in with your new password.",
+    "goLogin": "Go to login",
+    "missingToken": "This reset link is missing its token. Request a new one.",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "passwordMismatch": "Passwords do not match.",
+    "error": {
+      "INVALID_TOKEN": "This reset link is invalid or has expired.",
+      "EXPIRED_TOKEN": "This reset link has expired."
+    }
+  },
+  "resend": {
+    "error": {
+      "RATE_LIMITED": "Too many requests. Please try again later.",
+      "ACCOUNT_NOT_FOUND": "No account found for that contact."
+    }
+  },
+  "account": {
+    "title": "My account",
+    "logout": "Log out",
+    "loading": "Loading your account…",
+    "unknownDevice": "Unknown device",
+    "currentDevice": "This device",
+    "lastActive": "Last active",
+    "sessionsTitle": "Active sessions",
+    "noSessions": "No active sessions.",
+    "revokeOthers": "Log out all other sessions",
+    "sessionsRevoked": "All other sessions have been logged out.",
+    "changePasswordTitle": "Change password",
+    "currentPasswordLabel": "Current password",
+    "newPasswordLabel": "New password",
+    "changePassword": "Update password",
+    "passwordChanged": "Password updated."
+  },
+  "changePassword": {
+    "error": {
+      "INVALID_PASSWORD": "Your current password is incorrect.",
+      "RATE_LIMITED": "Too many attempts. Please try again later."
+    }
+  },
+  "admin": {
+    "title": "Admin",
+    "statUsers": "Total users",
+    "statVerified": "Verified users",
+    "statSellers": "Sellers",
+    "statPending": "Pending verification",
+    "usersTitle": "Users",
+    "noUsers": "No users yet.",
+    "colName": "Name",
+    "colContact": "Contact",
+    "colRole": "Role",
+    "colStatus": "Status",
+    "colJoined": "Joined"
+  },
+  "media": {
+    "title": "Media library",
+    "subtitle": "Upload and manage your images.",
+    "loading": "Loading your images…",
+    "noImages": "No images yet. Upload your first image above.",
+    "uploadTitle": "Upload images",
+    "limits": "Up to {max} images per batch, {mb}MB each, JPG / PNG / WEBP.",
+    "choose": "Choose images",
+    "removeFile": "Remove",
+    "uploading": "Uploading…",
+    "upload": "Upload {count} image(s)",
+    "cancel": "Cancel",
+    "uploaded": "Uploaded {count} image(s).",
+    "tooMany": "Too many files — up to {max} images per batch.",
+    "fileTooLarge": "{name} is over the {mb}MB limit.",
+    "invalidType": "{name} is not a supported image type.",
+    "libraryTitle": "Your images",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "deleted": "Image deleted."
+  },
+  "roles": {
+    "ADMIN": "Admin",
+    "SELLER": "Seller",
+    "USER": "User",
+    "DELIVERY_AGENT": "Delivery agent"
+  },
+  "statuses": {
+    "ACTIVE": "Active",
+    "PENDING_VERIFICATION": "Pending verification",
+    "SUSPENDED": "Suspended",
+    "DISABLED": "Disabled"
+  },
+  "forms": {
+    "hintPrefix": "—"
+  },
+  "errors": {
+    "fieldRequired": "This field is required.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "seller": {
+    "title": "Seller Profile",
+    "createTitle": "Create Your Store",
+    "editTitle": "Edit Store",
+    "storeNameLabel": "Store Name",
+    "storeDescriptionLabel": "Store Description",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address",
+    "createButton": "Create Profile",
+    "updateButton": "Save Changes",
+    "cancelButton": "Cancel",
+    "created": "Seller profile created successfully!",
+    "updated": "Seller profile updated successfully!",
+    "createError": "Failed to create profile",
+    "updateError": "Failed to update profile",
+    "verified": "✓ Verified Seller",
+    "notVerified": "Not Verified",
+    "memberSince": "Member since",
+    "activeListings": "Active Listings",
+    "totalListings": "Total Listings",
+    "rating": "Rating",
+    "reviews": "reviews",
+    "noListings": "No active listings yet",
+    "phone": "Phone",
+    "address": "Address"
+  }
+}
